@@ -38,7 +38,7 @@ public class CharactersStatistics {
             System.out.print(key + ":" + value + " | ");
 
         }
-
+        
     }
 
 }

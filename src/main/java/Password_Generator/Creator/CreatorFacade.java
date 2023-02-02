@@ -2,10 +2,17 @@ package Password_Generator.Creator;
 
 public class CreatorFacade {
 
-    public void getCreatedPassword(){
+    public String getCreatedPassword(){
 
         PasswordCreator passwordCreator = new PasswordCreator();
-        passwordCreator.createsPassword();
+        return passwordCreator.createsPassword();
+
+    }
+
+    public void getGeneratedPassword(){
+
+        PasswordCreator passwordCreator = new PasswordCreator();
+        passwordCreator.generatesPassword();
 
     }
 

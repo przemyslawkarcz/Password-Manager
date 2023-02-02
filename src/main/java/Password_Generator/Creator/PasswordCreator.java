@@ -1,5 +1,7 @@
 package Password_Generator.Creator;
 
+import Password_Generator.Characters.CharactersFacade;
+import Password_Generator.Verification.VerificationFacade;
 import java.util.Random;
 
 public class PasswordCreator {
@@ -35,6 +37,20 @@ public class PasswordCreator {
         System.out.println("Automatically generated password: " + receivedPassword);
 
         return receivedPassword;
+
+    }
+
+    protected void generatesPassword(){
+
+        CharactersFacade charactersFacade = new CharactersFacade();
+        VerificationFacade verificationFacade = new VerificationFacade();
+
+        verificationFacade.getNumberCharacters();
+        verificationFacade.getNumberDigits();
+        verificationFacade.getNumberCapitalLetters();
+        verificationFacade.getNumberSpecialSigns();
+        charactersFacade.getIndividualCharacters();
+        verificationFacade.getPasswordStrength();
 
     }
 

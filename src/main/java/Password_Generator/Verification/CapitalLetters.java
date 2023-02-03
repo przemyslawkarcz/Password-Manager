@@ -6,7 +6,7 @@ public class CapitalLetters {
 
     public static int counterOfCapitalLetters = 0;
 
-    protected void checksNumberOfCapitalLetters(){
+    protected Integer checksNumberOfCapitalLetters(){
 
         String [] capitalLetters = new String[]{
                 "A", "Ą", "B", "C", "Ć", "D", "E", "Ę", "F", "G",
@@ -35,6 +35,8 @@ public class CapitalLetters {
         }
 
         System.out.println("The password has " + counterOfCapitalLetters + " capital letter/s.");
+
+        return counterOfCapitalLetters;
 
     }
 

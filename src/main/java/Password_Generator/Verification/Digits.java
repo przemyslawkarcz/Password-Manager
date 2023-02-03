@@ -6,7 +6,7 @@ public class Digits {
 
     public static int counterOfDigits = 0;
 
-    protected void checksNumberOfDigits(){
+    protected Integer checksNumberOfDigits(){
 
         String [] digits = new String[]{
                 "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
@@ -32,6 +32,8 @@ public class Digits {
         }
 
         System.out.println("The password has " + counterOfDigits + " digit/s.");
+
+        return counterOfDigits;
 
     }
 

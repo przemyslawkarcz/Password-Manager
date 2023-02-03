@@ -8,20 +8,20 @@ Use the getGeneratedPassword() method if you want to automatically generate a ne
 Use the ....
 Use the ....
 
-/// Password Generator ///
+### Password Generator
 
 Password Generator creates passwords by randomly selecting characters. 
 The characters are held in a developer-defined library, which can be freely modified.
 The created password is statistically analyzed together with its strength.
 Password strength is also configurable by the developer.
 
-/// Password Strength Verifier I ///
+### Password Strength Verifier I
 
 .....
 .....
 .....
 
-/// Password Strength Verifier II ///
+### Password Strength Verifier II
 
 .....
 .....

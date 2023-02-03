@@ -6,7 +6,7 @@ public class SpecialSigns {
 
     public static int counterOfSpecialSigns = 0;
 
-    protected void checksNumberOfSpecialSigns(){
+    protected Integer checksNumberOfSpecialSigns(){
 
         String [] specialSigns = new String[]{
                 "~", "`", "!", "@", "#", "$", "%", "^", "&", "*",
@@ -36,6 +36,8 @@ public class SpecialSigns {
         }
 
         System.out.println("The password has " + counterOfSpecialSigns + " special sign/s.");
+
+        return counterOfSpecialSigns;
 
     }
 

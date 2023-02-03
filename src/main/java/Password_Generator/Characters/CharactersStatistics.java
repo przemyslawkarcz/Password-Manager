@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class CharactersStatistics {
 
-    protected void countsIndividualCharactersOfPassword() {
+    protected Map<Character, Integer> countsIndividualCharactersOfPassword() {
 
         Map<Character, Integer> characterIntegerMap = new HashMap<>();
 
@@ -38,7 +38,9 @@ public class CharactersStatistics {
             System.out.print(key + ":" + value + " | ");
 
         }
-        
+
+        return characterIntegerMap;
+
     }
 
 }

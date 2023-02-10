@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class Characters_PSVI_Test {
 
     @Test
-    public void NumberOfCapitalLettersTestReturnValue01(){
+    public void NumberOfCharactersTestReturnValue01(){
 
         Characters_PSVI characters_psvi = new Characters_PSVI();
 
@@ -19,7 +19,7 @@ public class Characters_PSVI_Test {
     }
 
     @Test
-    public void NumberOfCapitalLettersTestReturnValue02(){
+    public void NumberOfCharactersTestReturnValue02(){
 
         Characters_PSVI characters_psvi = new Characters_PSVI();
 
@@ -32,7 +32,7 @@ public class Characters_PSVI_Test {
     }
 
     @Test
-    public void NumberOfCapitalLettersTestReturnValue03(){
+    public void NumberOfCharactersTestReturnValue03(){
 
         Characters_PSVI characters_psvi = new Characters_PSVI();
 
@@ -45,7 +45,7 @@ public class Characters_PSVI_Test {
     }
 
     @Test
-    public void NumberOfCapitalLettersTestReturnValue04(){
+    public void NumberOfCharactersTestReturnValue04(){
 
         Characters_PSVI characters_psvi = new Characters_PSVI();
 
@@ -58,7 +58,7 @@ public class Characters_PSVI_Test {
     }
 
     @Test
-    public void NumberOfCapitalLettersTestReturnValue05(){
+    public void NumberOfCharactersTestReturnValue05(){
 
         Characters_PSVI characters_psvi = new Characters_PSVI();
 
@@ -71,7 +71,7 @@ public class Characters_PSVI_Test {
     }
 
     @Test
-    public void NumberOfCapitalLettersTestReturnValue06(){
+    public void NumberOfCharactersTestReturnValue06(){
 
         Characters_PSVI characters_psvi = new Characters_PSVI();
 

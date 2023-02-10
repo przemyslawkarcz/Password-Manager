@@ -1,7 +1,5 @@
 package Password_Generator.Verification;
 
-import static Password_Generator.Verification.Strength.password;
-
 public class CapitalLetters {
 
     public static int counterOfCapitalLetters = 0;
@@ -15,7 +13,7 @@ public class CapitalLetters {
                 "X", "Y", "Z", "Ź", "Ż"
         };
 
-        char[] passwordAsCharArray = password.toCharArray();
+        char[] passwordAsCharArray = Strength.password.toCharArray();
 
         for (int i = 0; i < capitalLetters.length; i++) {
 

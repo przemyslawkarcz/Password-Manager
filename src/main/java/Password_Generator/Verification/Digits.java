@@ -1,7 +1,5 @@
 package Password_Generator.Verification;
 
-import static Password_Generator.Verification.Strength.password;
-
 public class Digits {
 
     public static int counterOfDigits = 0;
@@ -12,7 +10,7 @@ public class Digits {
                 "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
         };
 
-        char[] passwordAsCharArray = password.toCharArray();
+        char[] passwordAsCharArray = Strength.password.toCharArray();
 
         for (int i = 0; i < digits.length; i++) {
 

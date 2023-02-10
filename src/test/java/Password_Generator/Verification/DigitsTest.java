@@ -1,6 +1,5 @@
-package Verification;
+package Password_Generator.Verification;
 
-import Verification.Digits;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

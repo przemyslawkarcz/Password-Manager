@@ -10,8 +10,8 @@ Use the ....
 
 ### Password Generator
 
-Password Generator creates passwords by randomly selecting characters. 
-The characters are held in a developer-defined library, which can be freely modified.
+Password Generator creates passwords by randomly selecting charactersPSVI. 
+The charactersPSVI are held in a developer-defined library, which can be freely modified.
 The created password is statistically analyzed together with its strength.
 Password strength is also configurable by the developer.
 

@@ -1,14 +1,12 @@
 package Password_Generator.Verification;
 
-import static Password_Generator.Verification.Strength.password;
-
 public class Characters {
 
     protected Integer checksNumberOfCharacters(){
 
-        System.out.println("Password length: " + password.length() + " character/s.");
+        System.out.println("Password length: " + Strength.password.length() + " character/s.");
 
-        return password.length();
+        return Strength.password.length();
 
     }
 

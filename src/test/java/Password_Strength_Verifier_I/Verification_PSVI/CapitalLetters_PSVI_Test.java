@@ -82,5 +82,5 @@ public class CapitalLetters_PSVI_Test {
         Assertions.assertNotEquals(13, numberOfCapitalLetters);
 
     }
-    
+
 }

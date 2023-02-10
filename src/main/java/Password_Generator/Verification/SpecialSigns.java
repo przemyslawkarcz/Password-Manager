@@ -1,7 +1,5 @@
 package Password_Generator.Verification;
 
-import static Password_Generator.Verification.Strength.password;
-
 public class SpecialSigns {
 
     public static int counterOfSpecialSigns = 0;
@@ -14,7 +12,7 @@ public class SpecialSigns {
                 "|", "/", ";", ":", "'", "<", ">", ",", ".", "?"
         };
 
-        char[] passwordAsCharArray = password.toCharArray();
+        char[] passwordAsCharArray = Strength.password.toCharArray();
 
         for (int i = 0; i < specialSigns.length; i++) {
 

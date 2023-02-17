@@ -7,12 +7,12 @@ public class AppRunner {
     public static void main(String[] args) {
 
         CreatorFacade creatorFacade = new CreatorFacade();
-        CreatorFacade_PSVI creatorFacadePSVI = new CreatorFacade_PSVI();
+        CreatorFacade_PSVI creatorFacade_PSVI = new CreatorFacade_PSVI();
         CreatorFacade_PSVII creatorFacade_PSVII = new CreatorFacade_PSVII();
 
         creatorFacade.getGeneratedPassword();
 
-        //creatorFacadePSVI.getHandMadePassword();
+        //creatorFacade_PSVI.getHandMadePassword();
 
         //creatorFacade_PSVII.getHandMadePassword_II();
 

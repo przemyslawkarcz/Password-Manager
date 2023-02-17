@@ -1,5 +1,6 @@
 import Password_Generator.Creator.CreatorFacade;
 import Password_Strength_Verifier_I.Creator_PSVI.CreatorFacade_PSVI;
+import Password_Strength_Verifier_II.Creator_PSVII.CreatorFacade_PSVII;
 
 public class AppRunner {
 
@@ -7,11 +8,13 @@ public class AppRunner {
 
         CreatorFacade creatorFacade = new CreatorFacade();
         CreatorFacade_PSVI creatorFacadePSVI = new CreatorFacade_PSVI();
-
+        CreatorFacade_PSVII creatorFacade_psvii = new CreatorFacade_PSVII();
 
         creatorFacade.getGeneratedPassword();
-        creatorFacadePSVI.getHandMadePassword();
 
+        //creatorFacadePSVI.getHandMadePassword();
+
+        //creatorFacade_psvii.getHandMadePassword_II();
 
 
     }

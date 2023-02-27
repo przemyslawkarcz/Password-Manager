@@ -8,18 +8,18 @@ To start, go to the AppRunner class.
 * Use the getHandMadePassword() method to manually enter your password in its entirety and check its strength.
 * Use the getHandMadePassword_II() method to create the password character by character.
 
-### Password Generator
+### Password Generator - getGeneratedPassword()
 
 The Password Generator creates passwords by randomly selecting characters. 
 The characters are held in a developer-defined library, which can be freely modified.
 The created password is statistically analyzed together with its strength.
 Password strength is also configurable by the developer.
 
-### Password Strength Verifier I
+### Password Strength Verifier I - getHandMadePassword()
 
 The Password Strength Verifier (I) gives the ability to enter the entire password of any length of characters and check its strength.
 
-### Password Strength Verifier II
+### Password Strength Verifier II - getHandMadePassword_II()
 
 The Password Strength Verifier (II) allows you to create a password character by character with the current analysis of password strength, 
 which takes place after entering the first character.
